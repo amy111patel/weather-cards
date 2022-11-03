@@ -1,0 +1,48 @@
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.temp-reading:after {
+    content: "\00b0"
+}
+
+.container{
+    width:100vw;
+    height:100vh;
+    background:url("./clouds-background.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-card {
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 2px 2px 7px #000;
+    border: 2px solid #004083;
+}
+
+.title-and-temprature{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-weight: 500;
+    flex: auto;
+    font-size: 30px;
+}
+.temprature{
+    flex: auto;
+    text-align: right;
+    font-size: 45px;
+    color: white;
+}
+.temprature img{
+    width: 140px;
+}
