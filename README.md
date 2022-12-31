@@ -1,3 +1,6 @@
+## Live Preview
+Open [https://amit-patel-weather-cards.vercel.app/] (https://amit-patel-weather-cards.vercel.app/) to view the live preview
+
 # weather-cards
 
 Hi All
